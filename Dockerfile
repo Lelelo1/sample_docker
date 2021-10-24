@@ -2,4 +2,9 @@
 
 # docker pull mcr.microsoft.com/azure-cli
 FROM mcr.microsoft.com/azure-cli
-CMD echo halabalolo #uname -m uname -a
+#linux commands that comes with azure cli:
+# print os name on linux: uname -o 
+CMD g++ -o hi main.cpp
+
+
+# run with: docker run --rm -it $(docker build -q .)
