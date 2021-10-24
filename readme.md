@@ -1,7 +1,8 @@
 
 sample to use azure cli
 
-// https://stackoverflow.com/questions/45141402/build-and-run-dockerfile-with-one-command
-build run and delete:
+
+
+build run and delete -> https://stackoverflow.com/questions/45141402/build-and-run-dockerfile-with-one-command
 
 docker run --rm -it $(docker build -q .)
