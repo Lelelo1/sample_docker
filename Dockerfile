@@ -15,3 +15,4 @@ CMD uname -o
 #CMD ver 
 
 # run with: docker run --rm -it $(docker build -q .)
+# it seems like images bunch up when looking in docker desktop.. :( 
